@@ -1,18 +1,19 @@
-import project1 from "../assets/projects/project-1.jpg"
-import project2 from "../assets/projects/project-2.jpg"
-import project3 from "../assets/projects/project-3.jpg"
-import project4 from "../assets/projects/project-4.jpg"
-import project5 from "../assets/projects/project-5.jpg"
+import project1 from "../assets/projects/project-1.jpg";
+import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a dedicated and passionate Data Science and Machine Learning enthusiast, committed to transforming innovative concepts into practical solutions through coding. Through internships in renowned research and technology companies, I have developed a strong proficiency in Python, SQL, and various machine learning and deep learning concepts, including LLMs, as well as supervised and unsupervised learning techniques. My objective is to leverage my expertise by developing solutions that seamlessly integrate software technologies with existing systems across diverse industries, enhancing their efficiency and usability.`;
+export const HERO_CONTENT = `I'm a dedicated Data Science and Machine Learning enthusiast with a knack for turning innovative ideas into practical solutions. With experience in top research and tech firms, I excel in Python, SQL, and a range of ML techniques, including LLMs and both supervised and unsupervised learning. My goal is to harness my skills to create seamless software solutions that enhance efficiency and usability across various industries.`;
 
-export const ABOUT_TEXT = `I am an aspiring Data Science and Machine Learning enthusiast, driven by a passion for transforming innovative concepts into tangible solutions through coding. I hold a Master’s degree in Electrical Engineering with a specialization in Machine Learning and Data Science from the University of Southern California (USC). My hands-on experience spans across AI and data science through internships at renowned research and technology companies. With a solid foundation in Python, SQL, and expertise in machine learning frameworks such as TensorFlow, PyTorch, and Scikit-learn, I have successfully developed and deployed various projects. Notable projects include a chatbot for generating a quiz using Vertex AI and LangChain, and a FAQ generator using T5, BERT and Llama transformer. I am particularly skilled in leveraging large language models (LLMs), supervised and unsupervised learning techniques, and data analysis tools. I am keen on gaining further hands-on experience in the dynamic realm of software development and machine learning. My focus areas revolve around Machine Learning, AI, and Data Science, and I am eager to apply my expertise while learning from industry pioneers. Outside of coding, I enjoy staying active, exploring new technologies, and improving my art skills.`;
+export const ABOUT_TEXT = `I am a passionate Data Science and Machine Learning enthusiast, eager to turn innovative concepts into real-world solutions. With a Master’s degree in Electrical Engineering from USC, specializing in Machine Learning and Data Science, I have hands-on experience through internships at top tech companies. I excel in Python, SQL, and machine learning frameworks like TensorFlow, PyTorch, and Scikit-learn. Notable projects include a Vertex AI and LangChain-powered quiz chatbot and a T5, BERT, and Llama-based FAQ generator. Skilled in leveraging large language models, supervised/unsupervised learning, and data analysis tools, I am keen to further my expertise in software development and machine learning. Beyond coding, I enjoy staying active, exploring new technologies, and enhancing my art skills.`;
 
 export const EDUCATION = [
   {
     year: "2022 - 2024",
     school: "University of Southern California",
-    degree: "Master of Science in Electrical Engineering (Machine Learning & Data Science)",
+    degree:
+      "Master of Science in Electrical Engineering (Machine Learning & Data Science)",
     // location: "Los Angeles, USA",
     // description: `Developed an advanced chatbot designed for coaching and mentorship utilizing cutting-edge technologies such as OpenAI, VertexAI, and TensorFlow. The work involved sophisticated data modeling, algorithm development, and the application of deep learning principles, significantly enhancing the chatbot's performance and user interaction.`,
     // gpa: "3.71",
