@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I'm a dedicated Data Science and Machine Learning enthusiast with a knack for turning innovative ideas into practical solutions. With experience in top research and tech firms, I excel in Python, SQL, and a range of ML techniques, including LLMs and both supervised and unsupervised learning. My goal is to harness my skills to create seamless software solutions that enhance efficiency and usability across various industries.`;
+export const HERO_CONTENT = `I have a knack for turning innovative ideas into practical solutions. With experience in top research and tech firms, I excel in Python, SQL, and a range of ML techniques. My goal is to harness my skills to create seamless software solutions that enhance efficiency and usability across various industries.`;
 
-export const ABOUT_TEXT = `I am a passionate Data Science and Machine Learning enthusiast, eager to turn innovative concepts into real-world solutions. With a Master’s degree in Electrical Engineering from USC, specializing in Machine Learning and Data Science, I have hands-on experience through internships at top tech companies. I excel in Python, SQL, and machine learning frameworks like TensorFlow, PyTorch, and Scikit-learn. Notable projects include a Vertex AI and LangChain-powered quiz chatbot and a T5, BERT, and Llama-based FAQ generator. Skilled in leveraging large language models, supervised/unsupervised learning, and data analysis tools, I am keen to further my expertise in software development and machine learning. Beyond coding, I enjoy staying active, exploring new technologies, and enhancing my art skills.`;
+export const ABOUT_TEXT = `With a Master's degree in Electrical Engineering, my passion for Data Science and Machine Learning is matched by hands-on experience from top tech firms. Specializing in frameworks like TensorFlow, PyTorch, and Scikit-learn, I've developed impactful projects such as a LangChain-powered quiz chatbot, and a sophisticated FAQ generator Llama model. My expertise extends to leveraging large language models, both supervised and unsupervised learning techniques, and advanced data analysis. Outside of my technical pursuits, I thrive on exploring cutting-edge technologies, staying active, and refining my digital art skills.`;
 
 export const EDUCATION = [
   {
@@ -15,7 +15,6 @@ export const EDUCATION = [
     degree:
       "Master of Science in Electrical Engineering (Machine Learning & Data Science)",
     // location: "Los Angeles, USA",
-    // description: `Developed an advanced chatbot designed for coaching and mentorship utilizing cutting-edge technologies such as OpenAI, VertexAI, and TensorFlow. The work involved sophisticated data modeling, algorithm development, and the application of deep learning principles, significantly enhancing the chatbot's performance and user interaction.`,
     // gpa: "3.71",
   },
   {
@@ -23,7 +22,6 @@ export const EDUCATION = [
     school: "RV College of Engineering",
     degree: "Bachelor of Engineering in Electronics and Communications",
     // location: "Bangalore, India",
-    // description: `Developed an advanced chatbot designed for coaching and mentorship utilizing cutting-edge technologies such as OpenAI, VertexAI, and TensorFlow. The work involved sophisticated data modeling, algorithm development, and the application of deep learning principles, significantly enhancing the chatbot's performance and user interaction.`,
     // gpa: "8.48",
   },
 ];
