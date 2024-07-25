@@ -97,3 +97,53 @@ export const CONTACT = {
   phoneNo: "+1 (213) 373-0506 ",
   email: "rohit.veeradhi@gmail.com",
 };
+
+export const navLinks = [
+  {
+    name: "Home",
+    link: "hero",
+  },
+  {
+    name: "About",
+    link: "about",
+  },
+  {
+    name: "Technologies",
+    link: "technologies",
+  },
+  {
+    name: "Education",
+    link: "education",
+  },
+  {
+    name: "Experience",
+    link: "experience",
+  },
+  {
+    name: "Projects",
+    link: "projects",
+  },
+  {
+    name: "Contact",
+    link: "contact",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: "in",
+    link: "https://www.instagram.com/its_rohit_da/",
+  },
+  {
+    id: "fb",
+    link: "https://www.facebook.com/rohit.veeradhi/",
+  },
+  {
+    id: "gh",
+    link: "https://github.com/Rohit04121998",
+  },
+  {
+    id: "li",
+    link: "https://www.linkedin.com/in/rohit-veeradhi/",
+  },
+];

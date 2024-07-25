@@ -5,7 +5,7 @@ export const Contact = () => {
   const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT.email}`;
 
   return (
-    <div className="border-b border-neutral-900 pb-4" id="contact">
+    <div className="pb-4" id="contact">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
