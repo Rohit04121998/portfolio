@@ -29,10 +29,8 @@ export const Education = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold text-lg">{education.degree}</h6>
-              <span className="italic text-lg text-purple-100">
-                {education.school}
-              </span>
+              <h6 className="mb-2 text-2xl font-semibold">{education.school}</h6>
+              <span className="text-lg italic text-purple-100">{education.degree}</span>
               {/* <p className='mt-2 mb-4 text-lg text-neutral-400'>{education.description}</p> */}
               {/* <p className='mt-2'>GPA: {education.gpa}</p> */}
             </motion.div>

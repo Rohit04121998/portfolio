@@ -13,7 +13,7 @@ const About = () => {
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.8 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
@@ -24,10 +24,10 @@ const About = () => {
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.8 }}
             className="flex justify-center lg:justify-center"
           >
-            <p className="my-2 max-w-[38rem] py-6 font-light tracking-tight text-lg">
+            <p className="my-2 max-w-[38rem] py-6 text-lg font-light tracking-tight">
               {ABOUT_TEXT}
             </p>
           </motion.div>

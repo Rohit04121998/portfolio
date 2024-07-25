@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I have a knack for turning innovative ideas into practical solutions. With experience in top research and tech firms, I excel in Python, SQL, and a range of ML techniques. My goal is to harness my skills to create seamless software solutions that enhance efficiency and usability across various industries.`;
 
@@ -12,8 +13,7 @@ export const EDUCATION = [
   {
     year: "2022 - 2024",
     school: "University of Southern California",
-    degree:
-      "Master of Science in Electrical Engineering (Machine Learning & Data Science)",
+    degree: "Master of Science in Electrical Engineering (Machine Learning & Data Science)",
     // location: "Los Angeles, USA",
     // gpa: "3.71",
   },
@@ -51,6 +51,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Steam Data Analysis",
+    image: project6,
+    description:
+      "Analyzed sales data from the Steam platform to identify trends, patterns, and key factors influencing game sales. Conducted ETL processes using MySQL for data preprocessing. Currently engaged in exploratory data analysis (EDA) and developing sales prediction models using machine learning. The final objective is to construct a recommendation system.",
+    technologies: ["Python", "SQL", "Matplotlib", "Tableau"],
+    github: `https://github.com/DataForgeOpenAIHub/Steam-Sales-Analysis`,
+  },
   {
     title: "FAQ Generator",
     image: project1,
@@ -93,7 +101,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "1226 W Adams Blvd, Los Angeles, CA 90007",
+  address: "Los Angeles, CA",
   phoneNo: "+1 (213) 373-0506 ",
   email: "rohit.veeradhi@gmail.com",
 };

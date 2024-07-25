@@ -10,7 +10,7 @@ export const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-10 text-center text-4xl"
+        className="my-10 text-center text-5xl"
       >
         Get in touch
       </motion.h1>
@@ -32,12 +32,7 @@ export const Contact = () => {
           {CONTACT.phoneNo}
         </motion.p>
         {/* <a href='#' className='border-b'>{CONTACT.email}</a> */}
-        <a
-          href={gmailUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="border-b"
-        >
+        <a href={gmailUrl} target="_blank" rel="noopener noreferrer" className="border-b">
           {CONTACT.email}
         </a>
       </div>

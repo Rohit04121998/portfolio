@@ -9,11 +9,14 @@ const iconMapping = {
 };
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <section className="flex justify-center items-center py-6 flex-col">
+    <section className="flex flex-col items-center justify-center py-6">
+      <div className="mt-7 w-full border-b border-neutral-700"></div>
       <div className="flex w-full flex-col items-center justify-between pt-6 md:flex-row">
-        <p className="text-center font-poppins text-[15px] font-normal leading-[27px] text-white py-6">
-          Copyright Ⓒ 2024 Rohit Veeradhi. All Rights Reserved.
+        <p className="font-poppins py-6 text-center text-[15px] font-normal leading-[27px] text-white">
+          Copyright Ⓒ {currentYear} Rohit Veeradhi. All Rights Reserved.
         </p>
 
         <div className="mt-6 flex flex-row md:mt-0">

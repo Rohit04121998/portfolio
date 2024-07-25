@@ -29,15 +29,11 @@ export const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold text-lg">
+              <h6 className="mb-2 text-2xl font-semibold">
                 {experience.role} -{" "}
-                <span className="text-lg text-purple-100">
-                  {experience.company}
-                </span>
+                <span className="text-lg text-purple-100">{experience.company}</span>
               </h6>
-              <p className="mb-4 text-lg text-neutral-400">
-                {experience.description}
-              </p>
+              <p className="mb-4 text-lg text-neutral-400">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}

@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-35 mt-40" id="hero">
+    <div className="lg:mb-35 mt-40 pb-4" id="hero">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -29,7 +29,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent font-semibold"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl font-semibold tracking-tight text-transparent"
             >
               Machine Learning & Data Science Enthusiast
             </motion.span>
@@ -37,7 +37,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-2xl py-6 font-light tracking-tight text-lg"
+              className="my-2 max-w-2xl py-6 text-lg font-light tracking-tight"
             >
               {HERO_CONTENT}
             </motion.p>
