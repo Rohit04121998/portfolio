@@ -100,12 +100,6 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
-  address: "Los Angeles, CA",
-  phoneNo: "+1 (213) 373-0506 ",
-  email: "rohit.veeradhi@gmail.com",
-};
-
 export const navLinks = [
   {
     name: "Home",
