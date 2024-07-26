@@ -2,13 +2,16 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 export const Contact = () => {
+  const apiUrl = import.meta.env.VITE_WEB3FORMS_API_URL;
+  const apiKey = import.meta.env.VITE_WEB3FORMS_API_KEY;
+
   const [submissionStatus, setSubmissionStatus] = useState(null);
 
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
     const additionalData = {
-      access_key: "b7b666dc-56ea-4864-ba04-095bcd661c3c",
+      access_key: apiKey,
       from_name: "Portfolio Visitor",
     };
 
@@ -20,7 +23,7 @@ export const Contact = () => {
     const json = JSON.stringify(object);
     console.log(json);
 
-    const res = await fetch("https://api.web3forms.com/submit", {
+    const res = await fetch(apiUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -67,7 +70,7 @@ export const Contact = () => {
             />
             <label
               for="name"
-              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-transparent px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300"
+              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-transparent px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
             >
               Your Name
             </label>
@@ -84,7 +87,7 @@ export const Contact = () => {
             />
             <label
               for="email"
-              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-transparent px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300"
+              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-transparent px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
             >
               Email
             </label>
@@ -101,7 +104,7 @@ export const Contact = () => {
             />
             <label
               for="subject"
-              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-transparent px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300"
+              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform bg-transparent px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
             >
               Subject
             </label>
@@ -119,7 +122,7 @@ export const Contact = () => {
             />
             <label
               for="message"
-              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-5 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300"
+              class="absolute start-1 top-2 z-10 origin-[0] -translate-y-4 scale-75 transform px-2 text-sm text-gray-400 duration-300 peer-placeholder-shown:top-5 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:bg-stone-950/80 peer-focus:px-2 peer-focus:text-purple-600 dark:bg-transparent dark:text-white peer-focus:dark:text-purple-300 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
             >
               Type your message
             </label>
