@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import ReactGA from "react-ga";
 
 export const Contact = () => {
   const apiUrl = import.meta.env.VITE_WEB3FORMS_API_URL;
@@ -8,6 +9,11 @@ export const Contact = () => {
   const [submissionStatus, setSubmissionStatus] = useState(null);
 
   const onSubmit = async (event) => {
+    ReactGA.event({
+      category: "User",
+      action: "Submitted a contact form",
+    });
+
     event.preventDefault();
     const formData = new FormData(event.target);
     const additionalData = {

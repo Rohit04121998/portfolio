@@ -7,8 +7,18 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import Education from "./components/Education";
 import { Footer } from "./components/Footer";
+import { initGA, logPageView } from "./analytics";
+import { useEffect } from "react";
 
 const App = () => {
+  const trackingID = import.meta.env.VITE_GOOGLE_ANALYTICS_TRACKING_ID;
+
+  initGA(trackingID);
+
+  useEffect(() => {
+    logPageView();
+  });
+
   return (
     <div className="no-scrollbar overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full">
