@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar fixed left-0 right-0 top-0 z-50 mx-4 flex items-center justify-between bg-black bg-opacity-80 py-6">
+    <nav className="navbar fixed left-0 right-0 top-0 z-50 mx-4 flex items-center justify-between bg-black bg-opacity-95 py-6">
       <img src={logo} alt="hoobank" className="w-[60px] lg:ml-16" />
 
       <ul className="hidden flex-1 list-none items-center justify-end sm:hidden md:hidden lg:flex">
