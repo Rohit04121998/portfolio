@@ -12,11 +12,9 @@ A modern portfolio built using React.js and Tailwind.
 6. 🔗 [Assets](#links)
 7. 🚀 [More](#more)
 
-
 ## <a name="introduction">🤖 Introduction</a>
 
 Built with React.js for handling the user interface, Flowbite for the UI component, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
-
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -36,7 +34,7 @@ Built with React.js for handling the user interface, Flowbite for the UI compone
 
 👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -73,8 +71,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-
 #### LICENSE
+
 This repository is licensed under the `MIT License`. See the [LICENSE](LICENSE) file for details.
 
 #### Disclaimer
