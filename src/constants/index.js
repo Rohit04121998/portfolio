@@ -148,4 +148,8 @@ export const socialMedia = [
     id: "li",
     link: "https://www.linkedin.com/in/rohit-veeradhi/",
   },
+  {
+    id: "md",
+    link: "https://medium.com/@rohit.veeradhi",
+  },
 ];

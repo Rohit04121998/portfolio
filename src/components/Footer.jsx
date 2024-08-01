@@ -1,11 +1,12 @@
 import { socialMedia } from "../constants";
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaMedium } from "react-icons/fa";
 
 const iconMapping = {
   in: <FaInstagram />,
   fb: <FaFacebook />,
   gh: <FaGithub />,
   li: <FaLinkedin />,
+  md: <FaMedium />,
 };
 
 export const Footer = () => {
