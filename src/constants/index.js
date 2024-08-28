@@ -55,7 +55,7 @@ export const PROJECTS = [
     title: "Steam Data Analysis",
     image: project6,
     description:
-      "Automated and scheduled a robust data pipeline using Prefect for the Steam sales analysis, ensuring timely data ingestion, validation, and transformation with fault-tolerant mechanisms such as flagging faulty IDs, logging fetcher runtimes, and soft restarts from points of failure. Developed and maintained steamstore_etl, a Python-based CLI tool, and implemented a CI/CD pipeline using GitHub Actions to automate testing and publish the package on PyPI, streamlining distribution and deployment. Additionally, created an interactive Tableau dashboard showcasing key performance indicators (KPIs) and regional and demographic analysis of Steam sales, providing actionable insights into user behavior and sales trends.",
+      "Automated a robust data pipeline using Prefect for Steam sales analysis, ensuring timely data ingestion, validation, and transformation with fault-tolerant mechanisms. Developed the `steamstore_etl` Python CLI tool and implemented a CI/CD pipeline with GitHub Actions for automated testing and publishing to PyPI. Created an interactive Tableau dashboard to display KPIs and analyze regional and demographic Steam sales trends.",
     technologies: ["Python", "SQL", "Matplotlib", "Tableau"],
     github: `https://github.com/DataForgeOpenAIHub/Steam-Sales-Analysis`,
   },
