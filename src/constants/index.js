@@ -55,7 +55,7 @@ export const PROJECTS = [
     title: "Steam Data Analysis",
     image: project6,
     description:
-      "Analyzed sales data from the Steam platform to identify trends, patterns, and key factors influencing game sales. Conducted ETL processes using MySQL for data preprocessing. Currently engaged in exploratory data analysis (EDA) and developing sales prediction models using machine learning. The final objective is to construct a recommendation system.",
+      "Automated and scheduled a robust data pipeline using Prefect for the Steam sales analysis, ensuring timely data ingestion, validation, and transformation with fault-tolerant mechanisms such as flagging faulty IDs, logging fetcher runtimes, and soft restarts from points of failure. Developed and maintained steamstore_etl, a Python-based CLI tool, and implemented a CI/CD pipeline using GitHub Actions to automate testing and publish the package on PyPI, streamlining distribution and deployment. Additionally, created an interactive Tableau dashboard showcasing key performance indicators (KPIs) and regional and demographic analysis of Steam sales, providing actionable insights into user behavior and sales trends.",
     technologies: ["Python", "SQL", "Matplotlib", "Tableau"],
     github: `https://github.com/DataForgeOpenAIHub/Steam-Sales-Analysis`,
   },
