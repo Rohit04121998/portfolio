@@ -1,4 +1,4 @@
-import { IoLogoPython, IoNutrition } from "react-icons/io5";
+import { IoLogoPython } from "react-icons/io5";
 import { SiMysql } from "react-icons/si";
 import { SiRstudio } from "react-icons/si";
 import { SiPytorch } from "react-icons/si";
@@ -7,6 +7,7 @@ import { SiNumpy } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
 import { SiGit } from "react-icons/si";
 import { SiGooglecloud } from "react-icons/si";
+import { SiTableau } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -118,6 +119,15 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiGooglecloud className="text-7xl text-green-700" />
+          {/* <h1 className='text-2xl text-center'>GCP</h1> */}
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTableau className="text-7xl text-blue-700" />
           {/* <h1 className='text-2xl text-center'>GCP</h1> */}
         </motion.div>
       </motion.div>
