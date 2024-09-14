@@ -1,5 +1,6 @@
 import { socialMedia } from "../constants";
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaMedium } from "react-icons/fa";
+import { SiTableau } from "react-icons/si";
 
 const iconMapping = {
   in: <FaInstagram />,
@@ -7,6 +8,7 @@ const iconMapping = {
   gh: <FaGithub />,
   li: <FaLinkedin />,
   md: <FaMedium />,
+  tb: <SiTableau />,
 };
 
 export const Footer = () => {
