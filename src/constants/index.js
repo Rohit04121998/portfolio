@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
 
 export const HERO_CONTENT = `I have a knack for turning innovative ideas into practical solutions. With experience in top research and tech firms, I excel in Python, SQL, and a range of ML techniques. My goal is to harness my skills to create seamless software solutions that enhance efficiency and usability across various industries.`;
 
@@ -52,12 +53,23 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "US Sales Dashboard",
+    image: project7,
+    description:
+      "An interactive Tableau dashboard that visualizes key sales metrics across the U.S., offering insights into regional sales performance, product categories, and customer behavior. The dashboard is designed to empower users to explore trends in sales revenue, profit margins, and geographical distribution.",
+    technologies: ["SQL", "Tableau"],
+    medium: `https://medium.com/@rohit.veeradhi/unlocking-u-s-sales-insights-an-interactive-tableau-dashboard-deep-dive-fa60e530e50f`,
+    tableau: `https://public.tableau.com/app/profile/rohit.veeradhi/viz/USSales_17255647650780/SalesDashboard`,
+  },
+  {
     title: "Steam Data Analysis",
     image: project6,
     description:
       "Automated a robust data pipeline using Prefect for Steam sales analysis, ensuring timely data ingestion, validation, and transformation with fault-tolerant mechanisms. Developed the steamstore_etl Python CLI tool and implemented a CI/CD pipeline with GitHub Actions for automated testing and publishing to PyPI. Created an interactive Tableau dashboard to display KPIs and analyze regional and demographic Steam sales trends.",
     technologies: ["Python", "SQL", "Matplotlib", "Tableau"],
     github: `https://github.com/DataForgeOpenAIHub/Steam-Sales-Analysis`,
+    tableau: `https://public.tableau.com/app/profile/rohit.veeradhi/viz/SteamAnalysis_17247013963080/Dashboard4`,
+    medium: `https://medium.com/@rohit.veeradhi/unlocking-game-insights-building-a-data-driven-pipeline-with-python-tableau-and-mysql-9b0f47d57e9d`,
   },
   {
     title: "FAQ Generator",
@@ -66,6 +78,7 @@ export const PROJECTS = [
       "Developed an advanced FAQ generation system by fine-tuning several models including QLoRA PEFT Llama-3 8b, Llama-2 7b, Mistral 7b, T5, and BART. The project involved scraping admission requirements for MS in CS from the top 150 US universities and storing the data in a JSON file. Enhanced the accuracy and relevance of the generated FAQs by 10% compared to a baseline T5 transformer model.",
     technologies: ["Python", "PyTorch", "TensorFlow", "Beautiful Soup"],
     github: `https://github.com/Rohit04121998/Automated-FAQ-Generation`,
+    medium: `https://medium.com/@rohit.veeradhi/transforming-university-admissions-with-ai-automating-faq-generation-c382ed81ff2b `,
   },
   {
     title: "Gemini Quizify",
@@ -74,6 +87,7 @@ export const PROJECTS = [
       "Collaborated with Radical AI to develop ReX, a chatbot using Gemini Pro. Created a quiz algorithm leveraging VertexAI embeddings and Chroma DB for data pipeline management, and built a Streamlit UI for data ingestion. This hands-on project showcased proficiency in chatbot development and data pipeline integration.",
     technologies: ["Python", "PyTorch", "LangChain", "GCP"],
     github: `https://github.com/Rohit04121998/Gemini-Quizify`,
+    medium: `https://medium.com/@rohit.veeradhi/revolutionizing-learning-introducing-gemini-quizify-your-ai-powered-quiz-companion-7f9d678b379d`,
   },
   {
     title: "American Sign Language Recognition using CNN",
@@ -82,6 +96,7 @@ export const PROJECTS = [
       "Implemented custom Convolutional Neural Network (CNN) models from scratch and integrated transfer learning to evaluate model performance by F-1 scores. Achieved 100% accuracy on a familiar dataset and 71% accuracy on an unfamiliar dataset characterized by abstract features, demonstrating strong skills in deep learning and image recognition.",
     technologies: ["Python", "PyTorch", "NumPy"],
     github: `https://github.com/Rohit04121998/American-Sign-Language-Recognition-using-Convolutional-Neural-Network`,
+    medium: `https://medium.com/@rohit.veeradhi/unveiling-the-power-of-convolutional-neural-networks-for-american-sign-language-recognition-9158391da572`,
   },
   {
     title: "Enhancing Interpretability in Mushroom Classification",
@@ -90,6 +105,7 @@ export const PROJECTS = [
       "Conducted a comprehensive analysis and feature engineering on the UCI mushroom dataset using UFS, RFE, and PCA. Compared various supervised models and achieved 99% accuracy with SVM, highlighting robust data analysis and modeling capabilities.",
     technologies: ["Python", "NumPy", "Seaborn"],
     github: `https://github.com/Rohit04121998/Enhancing-Interpretability-in-Mushroom-Classification`,
+    medium: `https://medium.com/@rohit.veeradhi/the-magic-of-mushrooms-revolutionizing-identification-with-machine-learning-c6a5e1a0dd63`,
   },
   {
     title: "Machine Learning over Encrypted Medical Data",
@@ -151,5 +167,9 @@ export const socialMedia = [
   {
     id: "md",
     link: "https://medium.com/@rohit.veeradhi",
+  },
+  {
+    id: "tb",
+    link: "https://public.tableau.com/app/profile/rohit.veeradhi/vizzes",
   },
 ];
