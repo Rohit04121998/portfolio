@@ -29,6 +29,13 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
+    year: "January 2025 - Present",
+    role: "Software Engineer",
+    company: "Google",
+    description: `Design and implement large scale processes and software systems that power Google's search infrastructure and overall reachability through notifications.`,
+    technologies: ["C++", "Java"],
+  },
+  {
     year: "March 2024 - April 2024",
     role: "Artificial Intelligence Engineer",
     company: "Radical AI",
